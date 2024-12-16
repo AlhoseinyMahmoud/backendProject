@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "Employees",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "employee_Name": {
+      "type": "string"
+    },
+    "employee_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Salary": {
+      "type": "integer"
+    },
+    "Phone_Number": {
+      "type": "integer"
+    },
+    "employee_Email": {
+      "type": "email"
+    },
+    "Work_hours": {
+      "type": "integer"
+    }
+  }
+}

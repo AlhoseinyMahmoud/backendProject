@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fatoras",
+  "info": {
+    "singularName": "fatora",
+    "pluralName": "fatoras",
+    "displayName": "fatora"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_Name": {
+      "type": "string"
+    },
+    "Product_qty": {
+      "type": "decimal"
+    },
+    "Product_Price": {
+      "type": "decimal"
+    },
+    "Total_Price": {
+      "type": "decimal"
+    }
+  }
+}
